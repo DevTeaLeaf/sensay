@@ -141,7 +141,7 @@ function Connect() {
     window.location.replace(metamaskAppDeepLink);
   } else {
     alert(
-      "Please do: \n 1) Open Metamask browser\n 2)Enter http://lumeta.beget.tech/"
+      "Please do: \n 1) Open Metamask browser\n 2) Enter http://lumeta.beget.tech/"
     );
     window.location.replace(metamaskAppDeepLink);
   }
