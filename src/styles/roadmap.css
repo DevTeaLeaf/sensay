@@ -1,0 +1,669 @@
+.roadmap-title h1{
+    font-size: 100px;
+    font-family: 'Montserrat-Bold';
+    color: #A8A6F8;
+}
+@media(min-width: 1001px) {
+    .roadmap-title h1{
+        max-width: 1512px;
+        margin: 0 auto;
+        padding: 0 80px;
+    }
+}
+header{
+    padding: 0;
+    background-image: none;
+}
+.bg-images{
+    position: absolute;
+}
+.vector{
+    position: absolute;
+    left: 0;
+    display: block;
+    z-index: -100;
+}
+.vector2{
+    top: 1500px;
+}
+.ellipse{
+    top: -450px;
+    pointer-events: none;
+    z-index: -100;
+}
+.ball_container{
+    
+}
+.path{
+}
+.path h4{
+    color: #8C84F7;
+    font-size: 40px;
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+    letter-spacing: -0.408px;
+    font-style: normal;
+    text-shadow: 0px 4px 30px rgba(91, 176, 255, 0.25);
+    text-align: left;
+}
+.team{
+    margin: 0px 0 0px 0;
+}
+@media(min-width: 1024px) {
+
+    .crowdfinding{
+        padding: 0 0 0 16%;
+        min-height: 300px;
+    }
+    .foundation{
+        padding: 0 45% 0 16%;
+        min-height: 260px;
+    }
+    .gpt{
+        position: relative;
+        padding: 0 10% 0 16%;
+        min-height: 590px;
+    }
+    .pre-sale{
+        padding: 0 0 0 16%;
+        min-height: 430px;
+    }
+    .post-pre-sale{
+        padding: 1% 16%;
+        min-height: 430px;
+    }
+    .public-sale{
+        padding: 6% 7% 0 16%;
+        min-height: 260px;
+    }
+    .post-public-sale{
+        padding: 0 10% 0 16%;
+        min-height: 260px;
+    }
+    .post-sale2{
+        padding: 0 50% 0 16%;
+        min-height: 260px;
+    }
+    .post-sale3{
+        padding: 0 15% 0 16%;
+        min-height: 260px;
+    }
+    .post-sale4{
+        padding: 0 30% 0 16%;
+        min-height: 260px;
+    }
+    .post-sale5{
+        padding: 0 29% 0 16%;
+        min-height: 260px;
+    }
+    .secret-sale{
+        padding: 0 20% 0 16%;
+        min-height: 260px;
+    }
+}
+@media(max-width: 1023px) {
+
+    .crowdfinding{
+        padding: 0 0 0 0;
+    }
+    .foundation{
+        padding: 0 4% 0 0;
+    }
+    .gpt{
+        position: relative;
+        padding: 0 4% 0 0;
+    }
+    .pre-sale{
+        padding: 0 4% 0 0;
+    }
+    .post-pre-sale{
+        padding: 0 4% 0 0;
+    }
+    .public-sale{
+        padding: 0 4% 0 0;
+    }
+    .post-public-sale{
+        padding: 0 4% 0 0;
+    }
+    .post-sale2{
+        padding: 0 4% 0 0;
+    }
+    .post-sale3{
+        padding: 0 4% 0 0;
+    }
+    .post-sale4{
+        padding: 0 4% 0 0;
+    }
+    .post-sale5{
+        padding: 0 4% 0 0;
+    }
+    .secret-sale{
+        padding: 0 4% 0 0;
+    }
+}
+.path p{
+    margin: 0;
+    color: black;
+    opacity: 30%;
+    font-family: 'Montserrat-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+}
+.path h5{
+    font-size: 34px;
+    color: #8C84F7;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.gpt h4{
+    margin-top: 50px;
+}
+footer{
+    margin-top: 175px;
+    position: relative;
+}
+.vector{
+    position: absolute;
+    width: 140px;
+    height: 3773px;
+    margin-top: initial;
+}
+@media(min-width: 1024px) {
+    .vector{
+        top: 400px;
+    }
+}
+.vector1{
+    top: 200px;
+}
+.vector2{
+    top: 1936px;
+}
+.vector3{
+    top: 4006px;
+}
+.ball{
+    position: absolute;
+    z-index: -100px;
+}
+.ball0{
+    top: 380px;
+    left: 0px;
+}
+.ball1{
+    top: 710px;
+    left: 25px;
+}
+.ball2{
+    top: 950px;
+    left: 0px;
+}
+.ball3{
+    top: 1580px;
+    left: 35px;
+}
+.ball4{
+    top: 1960px;
+    left: 0px;
+}
+.ball5{
+    top: 2410px;
+    left: 25px;
+}
+.ball6{
+    top: 2650px;
+    left: 0px;
+}
+.ball7{
+    top: 2950px;
+    left: 30px;
+}
+.ball8{
+    top: 3210px;
+    left: 40px;
+}
+.ball9{
+    top: 3400px;
+    left: 0px;
+}
+.ball10{
+    top: 3680px;
+    left: -20px;
+}
+.ball11{
+    top: 3940px;
+    left: 0px;
+}
+.bg-light{
+    position: absolute;
+}
+.light-1{
+    top: -200px;
+}
+.light-2{
+    top: 500px;
+}
+.light-3{
+    transform: rotate(180deg);
+    right: 0;
+    top: 1000px;
+}
+.light-4{
+    top: 1900px;
+}
+.light-5{
+    top: 2700px;
+    transform: rotate(180deg);
+    right: 0;
+}
+.light-6{
+    top: 3500px;
+}
+.light-7{
+    top: 4200px;
+    right: 0;
+    transform: rotate(180deg);
+}
+.bg-ellipse{
+    position: absolute;
+    top: 2700px;
+    width: 150%;
+    z-index: -100;
+    display: none;
+}
+.dashed-ellipse{
+    position: absolute;
+    top: 2500px;
+    display: none;
+}
+.mobile-vector{
+    margin-top: 300px;
+    height: 450%;
+    position: absolute;
+    display: none;
+}
+@media(max-width: 1750px){
+    
+    footer{
+        margin-top: 100px;
+    }
+    
+}
+
+@media(min-width: 680px){
+    .step{
+        padding-top: 50px;
+        padding-bottom: 50px;;
+    }
+    .step{
+        padding-left: 230px;
+        padding-right: 80px;
+        max-width: 1512px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 1500px){
+
+    
+}
+
+@media(max-width: 1440px){
+    
+}
+
+@media(max-width: 1415px) {
+   
+}
+
+@media(max-width: 1380px) {
+    
+}
+
+@media(max-width: 1366px){
+    .mobile-vector{
+        height: 400%;
+    }
+    .light-6{
+        display: none;
+    }
+    .path h4{
+        font-size: 44px;
+    }
+    .path p{
+        font-size: 20px;
+    }
+    .gpt h4{
+        left: 10%;
+    }
+    .vector{
+        
+    }
+    .mobile-vector{
+        display: block;
+    }
+    
+}
+
+@media(max-width: 1366px){
+    
+}
+
+@media(max-width: 1166px){
+    .mobile-vector{
+        height: 400%;
+    }
+   
+    .bg-ellipse{
+        display: none;
+    }
+    .light-5{
+        display: none;
+    }
+    
+   
+}
+
+@media(max-width: 1000px){
+    .roadmap-title h1{
+        font-size: 60px;
+        margin: 100px 0 0 10%;
+    }
+    .path h4{
+        font-size: 24px;
+    }
+    .path p{
+        font-size: 16px;
+    }
+    
+    .bg-ellipse{
+        display: none;
+    }
+    .light-5{
+        display: none;
+    }
+}
+
+@media(min-width: 768px){
+    .step {
+        /* border: 1px solid red; */
+    }
+}
+.step {
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.ball-mb {
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 0;
+
+}
+@media(min-width: 600px) {
+    .vector_mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .vector_mobile {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .path {
+        margin-top: 150px;
+    }
+    .foundation {
+        margin-top: -10%;
+    } 
+
+    .gpt {
+        margin-top: -5%;
+    }
+
+    .step {
+        padding-bottom: 150px;
+        transform: translateY(0px);
+    }
+
+    .post-sale2.step {
+        transform: translateY(0px);
+    }
+
+    .post-sale4.step {
+        padding-bottom: 100px;
+    }
+    
+    .public-sale{
+        margin-top: -15%;
+    }
+
+    .post-public-sale{
+        margin-top: -5%;
+    }
+
+    .post-pre-sale {
+        margin-top: -5%;
+    }
+
+    .post-sale2{
+        margin-top: -5%;
+    }
+
+    .post-sale3{
+        margin-top: -5%;
+    }
+
+    .post-sale4{
+        margin-top: -5%;
+    }
+
+    .post-sale5{
+        margin-top: -5%;
+    }
+    
+    .pre-sale {
+        margin-top: -5%;
+    }
+
+    .step h4 {
+        margin: 0!important;
+    }
+
+    .step h5 {
+        margin: 0!important;
+        font-size: 24px;
+    }
+
+    .secret-sale{
+        margin-top: 0px;
+    }
+
+    .dashed-ellipse {
+        display: none;
+    }
+    .vector{
+        display: none;
+    }
+    .ball-mb {
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+    }
+    .ball-mb-0 {
+        top: -77px;
+        left: -30px;
+    }
+    .ball-mb-1 {
+        top: -50px;
+        left: 0px;
+    }
+    .ball-mb-2 {
+        top: -50px;
+        left: -30px;
+    }
+    .ball-mb-3 {
+        top: -30px;
+        left: 20px;
+    }
+    .ball-mb-4 {
+        top: -60px;
+        left: -30px;
+    }
+    .ball-mb-5 {
+        top: -30px;
+        left: -10px;
+    }
+    .ball-mb-6 {
+        top: -80px;
+        left: -30px;
+    }
+    .ball-mb-7 {
+        top: -40px;
+        left: 0px;
+    }
+    .ball-mb-8 {
+        top: -40px;
+        left: 10px;
+    }
+    .ball-mb-9 {
+        top: -80px;
+        left: -40px;
+    }
+    .ball-mb-10 {
+        top: -50px;
+        left: -50px;
+    }
+    .ball-mb-11 {
+        top: -70px;
+        left: -40px;
+    }
+    .ball {
+        display: none;
+    }
+
+    .ball0{
+        top: 230px;
+        left: -50px;
+    }
+    .ball1{
+        top: 430px;
+        left: -10px;
+    }
+    .ball2{
+        top: 600px;
+        left: -30px;
+    }
+    .ball3{
+        top: 1180px;
+        left: 0px;
+    }
+    .ball4{
+        top: 1480px;
+        left: -40px;
+    }
+    .ball5{
+        top: 1820px;
+        left: -20px;
+    }
+    .ball6{
+        top: 1930px;
+        left: -50px;
+    }
+    .ball7{
+        top: 2130px;
+        left: -10px;
+    }
+    .ball8{
+        top: 2270px;
+        left: 0px;
+    }
+    .ball9{
+        top: 2370px;
+        left: -60px;
+    }
+    .ball10{
+        top: 2530px;
+        left: -90px;
+    }
+    .ball11{
+        top: 2680px;
+        left: -60px;
+    }
+
+    .mobile-vector {
+        height: 252%;
+    }
+}
+
+@media(max-width: 374px) {
+    .vector_mobile {
+        width: 100px;
+    }
+    .path .step {
+        padding-left: 160px;
+        padding-right: 20px;
+    }
+    .path h4 {
+        font-size: 18px;
+    }
+    .path p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 600px) {
+    .path .step {
+        padding-left: 180px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .roadmap-title h1{
+        font-size: 36px;
+        margin: 80px 0 70px 10%;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .mobile-vector {
+        height: 288%;
+    }
+}
+
+@media (max-width: 360px) {
+    .path h4 {
+        margin-top: 45px;
+    }
+    .path h5 {
+        margin-top: 45px;
+    }
+    .mobile-vector {
+        height: 320%;
+    }
+}
+
+@media (max-width: 340px) {
+    .mobile-vector {
+        height: 338%;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .mobile-vector {
+        height: 360%;
+    }
+}
+
+

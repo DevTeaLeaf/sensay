@@ -1,0 +1,240 @@
+.about-page h1{
+    font-size: 100px;
+    font-family: 'Montserrat-Bold';
+    color: #A8A6F8;
+    max-width: 1250px;
+    margin: 0 auto 10px;
+    padding: 0 30px;
+}   
+.about-title h3{
+    font-size: 26px;
+    margin: 20px 0;
+    letter-spacing: 25px;
+    margin-left: 19%;
+    font-family: 'Montserrat-Bold';
+    color: #A8A6F8;
+}
+.about-page h2{
+    font-family: 'Montserrat-Bold';
+    color: #A8A6F8;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.quote{
+    width: 50%;
+}
+.quote, .continuation-of-the-quote{
+    position: relative;
+    z-index: 10;
+    line-height: 170%;
+    letter-spacing: 0;
+    font-size: 24px;
+    margin: 0 35% 0 0;
+    padding: 10px 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 44px rgba(203, 203, 203, 0.25);
+    background-color: #fff;
+}
+.continuation-of-the-quote{
+    padding: 10px 10% 30px 30px;
+    margin: 50px 25% 0 0;
+}
+.articules{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1650px;
+    margin: 115px auto 0; /*200px*/
+    padding: 0 30px;
+}
+
+.articule{
+    position: relative;
+    max-width: 250px;
+    margin: 0 10px;
+}
+
+@media(max-width: 768px) {
+    .articule{ 
+        margin: 20px 10px 0;
+    }
+}
+.articule p{
+    font-size: 18px;
+}
+h4{
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+h5{
+    margin: 0;
+    text-align: center;
+}
+.budda-abs{
+    position: absolute;
+    z-index: 100;
+    left: 93%;
+    top: 5%;
+    transform: translateX(-100%);
+}
+@media screen and (min-width: 1024px) {
+    .about-title {
+        
+    }
+    .philosophie_content {
+        max-width: 1250px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+    .mt-100{
+        
+    }
+}
+.mt-100{
+    margin-top: 100px;
+}
+footer{
+    margin-top: 100px;
+}
+.about-page .bg-light{
+    position: absolute;
+    z-index: 0 !important;
+}
+.first-light{
+    top: -100px;
+    width: 150%;
+}
+@media(min-width: 769px) {
+    .about_second-light{
+        top: 1000px;
+    }
+    .about_three-light{
+        top: 1200px;
+    }
+    .about_four-light{
+        top: 1200px;
+        transform: rotate(180deg);
+        right: 0;
+    }
+    .about_ellipse-bottom{
+        top: 1000px;
+        width: 150%;
+    }
+}
+@media(max-width: 768px) {
+    .about_second-light{
+        top: 1000px;
+    }
+    .about_three-light{
+        top: 1000px;
+        transform: rotate(180deg);
+    }
+    .about_four-light{
+        top: 1500px;
+    }
+}
+.budda-right{
+    top: -10%;
+    right: -20%;
+    z-index: 10;
+}
+.ellipse-bottom{
+    top: 1000px;
+    width: 150%;
+}
+.fourth-light{
+    right: 0;
+    /* top: 1200px; */
+    transform: rotate(180deg);
+}
+@media(max-width: 1750px){
+    .articules{
+        margin: 0 10%;
+    }
+    .budda-right{
+        width: 70%;
+        right: -26%;
+        top: 15%;
+    }
+}
+@media(max-width: 1470px){
+    .budda-right{
+        width: 1200px;
+        top: 10%;    
+        right: -25%;
+    }
+}
+@media(max-width: 1400px){
+    .budda-right{
+        top: 17%;    
+    }
+}
+@media(max-width: 1366px){
+    .budda-right{
+        right: -40%;   
+    }
+    .articules{
+        margin: 20%;
+    }
+    .about-page .team{
+        margin-left: 0;
+        text-align: center;
+    }
+}
+@media(max-width: 1094px){
+    .articules{
+        margin: 0 19%;
+    }
+    .budda-right{
+        display: none;
+    }
+    .quote, .continuation-of-the-quote{
+        margin: 0 10%;
+    }
+    .quote{
+        width: auto;
+        margin-bottom: 25px;
+    }
+}
+@media(max-width: 992px){
+    .articules{
+        margin: 0 19%;
+        justify-content: center;
+    }
+    .about-page h1{
+        font-size: 60px;
+        margin: 80px 0 0 0;
+    }
+    .about-title h3{
+        font-size: 24px;
+        margin: 10px 10% 0 10%;
+        letter-spacing: 15px;
+    }
+    .about-page h2{
+        margin-left: 10%;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 640px){
+    .quote, .continuation-of-the-quote {
+        font-size: 16px;
+    }
+    .about-page .mt-100 {
+        margin-top: 50px;
+    }
+    .about-page h1 {
+        font-size: 36px;
+        font-weight: 500;
+    }
+    
+    .articule p{
+        font-size: 16px;
+    }
+    .articules{
+        margin: 0 10%;
+        padding: 0 0 0;
+        justify-content: center;
+    }
+}

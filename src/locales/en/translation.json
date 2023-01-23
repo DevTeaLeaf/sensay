@@ -1,0 +1,149 @@
+{
+    "menuTop": "About",
+    "menuTop1": "Road map",
+    "menuTop2": "How to buy",
+    "menuTop3": "FAQ",
+    "menuTop4": "White Paper",
+    "menuMobile": "Main",
+    "menuMobile1": "About",
+    "menuMobile2": "Road map",
+    "menuMobile3": "How to buy",
+    "menuMobile4": "FAQ",
+    "menuMobile5": "White Paper",
+    "wallet": "CONNECT <br /> WALLET",
+    "findBuddaTitle": "FIND YOUR BUDDHA!",
+    "benefitTitle": "BENEFITS",
+    "benefit1": "Passive income in the form of native tokens",
+    "benefit2": "App - Meditate to earn exclusively for NFT holders",
+    "benefit3": "Transformation of NFT SENSAY into NFT 2",
+    "benefit4": "Joining the Illuminated club on Discord",
+    "benefit5": "Participation in distribution of NFT / native tokens",
+    "benefit6": "Participation in discussions and voting on project development",
+    "ecoTitle": "ECOSYSTEM",
+    "findBuddaBody": "Add value to your collections together <br /> with. Join our NFT community right now!",
+    "companyBlock": "The SENSAY is a collection of 10,000 unique NFT Buddhas that are part of something bigger!",
+    "companyBlock2": "Owning an NFT opens up access to the illuminated club as well as passive income in the horizon. Future privileges will be unlocked by the community as the roadmap progresses",
+    "ecoBlock": "Our NFT project is an integral part of a large and interacting ecosystem, the Lumeta ecosystem. Each successive project connects to the previous one by introducing payment systems in the form of a token and its own cryptocurrency based on blockchain technology",
+    "ecoBlock2": "The cherry on the cake is the full integration of all of the above projects into our own metaverse with innovative technologies and opportunities for each of us",
+    "articulesTitle": "Co-Founder",
+    "articulesTitle1": "Co-Founder",
+    "articulesTitle2": "Project Manager",
+    "articulesTitle3": "Concept Manager",
+    "aboutTitle": "ABOUT",
+    "philosophie": "PHILOSOPHY OF BUDDHA",
+    "team": "TEAM",
+    "quote": "Everything around us is energy. Energy is pure and fluid. It is capable of transforming and taking any form",
+    "continuationQuote": "Man has the ability to control energy. To do this, it is necessary to know the basic tenets of being. Hustle and bustle of modern life drives people along a written script and they forget who they really are. I Am Me is the beginning of a journey of self-discovery and awareness. The NFT project is an embodiment of the energy of light in the form of a Buddha. With this project we want to push each of us to the side of a light and conscious life. Each of us will find our own buddha. Find your Buddha!",
+    "articulesDescr": "Communicative, goal-oriented, responsible, conscientious, forward-looking <br /><br /> Investment activities from 2019. Leading and managing activities from 2020.",
+    "articulesDescr2": "Entrepreneurship, communication skills, responsibility, creativity, leadership qualities <br><br> Running his own business since 2011, investment activity since 2019. Creation and development of a dozen brands from scratch.",
+    "articulesDescr3": "Organizational skills, communication skills, responsibility, creativity, process optimization <br><br> Fullstack developer and IT-Consultant since 2017. Project Management since 2019. Investment activities since 2020.",
+    "articulesDescr4": "Innovative abilities, conceptual and analytical thinking, reflexivity, sensitivity to aesthetics, out-of-the-box thinking, conveying knowledge in plain language. Ability for personal and business-oriented coaching (visionary)",
+    "HowTitle": "HOW TO BUY",
+    "videoInfo": "The SENSAY is a collection of 10,000 unique NFT Buddhas that are part of something bigger!",
+    "videoBlock": "How to purchase our NFT?",
+    "steps": "To buy a Sensay NFT you will need an Ethereum compatible crypto wallet and some ETH. We recommend to use the",
+    "steps2": "MetaMask is available as a plugin for following browsers: Chrome, Firefox, Edge, Brave.",
+    "steps3": "If you haven’t bought Ethereum yet, the MetaMask plugin has a button to get ETH from Coinbase (crypto exchange platform).",
+    "steps4": "This plugin will allow you to access your Ethereum account from our website and make a purchase.",
+    "steps5": "After the purchase, you can view your Sensay in your MetaMask wallet by visiting your profile page and checking purchases.",
+    "roadTitle": "ROAD MAP",
+    "planetTitle": "Crowdfunding",
+    "planetDescr": "Attracting investments through Crowdfunding Platforms",
+    "planetTitle1": "Foundation",
+    "planetDescr1": "Early sale of NFT for Buddha Foundation",
+    "planetTitle2": "Give away",
+    "planetDescr2": "Free distribution of NFT for the fulfilled conditions: <br> 1. Subscribe to social networks (Twitter, Discord, Instagram) <br> 2. Repost 2 posts from Twitter / Discord <br> 3. Comment under the Twitter post with the answer, what did the NFT project like",
+    "planetTitle3": "Partners",
+    "planetDescr3": "Free distribution of NFT for advertising and promotion of the project",
+    "planetTitle4": "Team",
+    "planetDescr4": "Buffer / reserve for team and project development",
+    "planetTitle5": "Pre-Sale",
+    "planetDescr5": "Pre-Sale of NFT for the fulfilled conditions: <br> 1. Subscribe to social networks (Twitter, Discord, Instagram) <br> 2. Repost 2 posts from Twitter <br> 3. Comment under the Twitter post with the answer, what did the NFT project like",
+    "planetTitle6": "Post Pre-Sale",
+    "planetDescr6": "Post Pre-Sale of NFT for the fulfilled conditions: <br> 1. Subscribe to social networks (Twitter, Discord, Instagram) <br> 2. Repost 2 posts from Twitter <br> 3. Comment under the Twitter post with the answer, what did the NFT project like",
+    "planetTitle7": "Public Sale",
+    "planetDescr7": "Public sale of NFTs without discount",
+    "planetTitle8": "Post Public Sale",
+    "planetDescr8": "Post Public sale of NFTs without discount",
+    "planetTitle9": "Post Sale 2",
+    "planetDescr9": "Post sale 2 of NFTs with a higher value $",
+    "planetTitle10": "Post Sale 3",
+    "planetDescr10": "Post sale 3 of NFTs with a higher value $$",
+    "planetTitle11": "Post Sale 4",
+    "planetDescr11": "Post sale 4 of NFTs with a higher value $$$",
+    "planetTitle12": "Post Sale 5",
+    "planetDescr12": "Post sale 5 of NFTs with a higher value $$$$",
+    "planetTitle13": "Secret Sale",
+    "planetDescr13": "Secret sale of 3 ultra-rare NFTs $$$$$",
+    "faqTitle": "FAQ",
+    "leftColumn": [
+        {
+            "id": 0,
+            "title": "How many NFTs will there be?",
+            "body": "NFT Collection SENSAY contains 10.000 NFT"
+        },{
+            "id": 1,
+            "title": "What will be the mint price?",
+            "body": "The price depends on the phase of NFT mint. The price of early stage NFT 'Foundation' is 0,2 ETH"
+        },{
+            "id": 2,
+            "title": "What about the commercial rights?",
+            "body": "The copyright belongs to Lumeta. Ownership and resale rights belong to the owners of the NFT. For commercial use, please contact us!"
+        },{
+            "id": 3,
+            "title": "What makes Buddha unique?",
+            "body": "The NFT Buddha SENSAY is one of a kind, combining different elements like background, outfit, eye- & headwear, accessories & jewelry (important element: The Amulets with different stones, symbolizing fire, earth, wind, water) and most importantly his body, which changes from skin to nephrite, wood, gras and diamonds. The NFT Buddha is timeless, flexible and may inherit a spiritual value to its owners."
+        },{
+            "id": 4,
+            "title": "How can I get whitelisted?",
+            "body": "Active users will be whitelisted. To take advance of a whitelist do following: 1. Subscribe to social networks (Twitter, Discord, Instagram, Telegram) 2. Repost this post from Twitter 3. Comment under this post on Twitter with a response about what you liked about the NFT project 4. Contact us here, to get an entry in our whitelist"
+        },{
+            "id": 5,
+            "title": "What Blockchain network is NFT SENSAY on?",
+            "body": "Ethereum"
+        },{
+            "id": 6,
+            "title": "How many NFT SENSAY can i mint?",
+            "body": "The limit on one cryptowallet is 500 NFT"
+        },{
+            "id": 7,
+            "title": "What rights do i have as a chimpers holder?",
+            "body": "As a holder of NFT SENSAY, you receive only the rights described in the terms of the smart contract recorded in your non-fungible token. All other rights belong exclusively to the creator. If you want additional rights, contact the creator."
+        }
+    ],
+    "rightColumn": [
+        {
+            "id": 8,
+            "title": "When will we launch?",
+            "body": "NFT SENSAY will launch on a growing crypto market"
+        },{
+            "id": 9,
+            "title": "Will there be other NFT collections of Buddhas?",
+            "body": "Yes. For more information about future collections, see the Road Map on the company's websites."
+        },{
+            "id": 10,
+            "title": "What are the secondary royalties?",
+            "body": "The LUMETA team will receive 5% of all secondary sales. These funds will be used to continue to hire new full-time employees, fund the development of future projects and provide even more value to our community."
+        },{
+            "id": 11,
+            "title": "Which fees do I pay by purchaysing a NFT?",
+            "body": "What fees do I pay when I buy an NFT? Purchasing an NFT pays for: <br> - 5% author's fee, dedicated to the further development of the projects and increasing the value of the company <br> - 5% interest on the mine, which is intended to build financial security and charity <br> - 2.5% commission of the Opensea Marketplace"
+        },{
+            "id": 12,
+            "title": "Who owns the smartcontract and where can I find the smartcontract?",
+            "body": "<a href='https://etherscan.io/address/0x21abb9a32e8b9be8b9d1632a7303f9cb21f5bcd3#code'>The smart contract is designed and owned by Lumeta. The smart contract can be found on Etherscan at</a>"
+        },{
+            "id": 13,
+            "title": "Which long-term development do Lumeta have?",
+            "body": "There will be another two NFT collections of Buddhas with its own token, cryptocurrency and metaverse. Every project will be a part of a big ecosystem. For further information, visit our website, Ecosystem and Road Map section."
+        },{
+            "id": 14,
+            "title": "What are the rarity classes?",
+            "body": "There are two main phases of mint: - the 1 phase consists 500 sunburn Buddhas - the 2 phase consists 9500 Buddhas with different bodies (Wood 15%, cooper 15%, skin 15%, grass 10%, silver 10%, marble 10%, steel 10%, gold 5%, nephrite 5%, diamond 5%) There are 8 another atributes of accessories like background, clothers, glasses, hirestyle, chain, beard, piercing, rings. And there are 3 ultra rarity NFTs of all collection."
+        },{
+            "id": 15,
+            "title": "Can I resell my Sensay NFT?",
+            "body": "Yes, you are able to resell on the Opensea platform at anytime you see fit."
+        }
+    ]
+}

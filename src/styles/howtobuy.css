@@ -1,0 +1,207 @@
+@media(min-width: 1024px) {
+    .how_light {
+        position: absolute;
+        top: 0px;
+        display: block;
+    }
+}
+.how_light {
+    display: none;
+}
+.how_light-two{
+    top: 1000px;
+    position: absolute;
+    z-index: -1;
+}
+.how_light-three{
+    top: 1700px;
+    position: absolute;
+    transform: rotate(180deg);
+    right: 0;
+    z-index: -1;
+}
+.how_light-four {
+    top: 2400px;
+    position: absolute;
+    z-index: -1;
+}
+@media(max-width: 768px) {   
+    main {
+        position: relative;
+    }
+    .how_budda {
+        position: absolute;
+        width: 55%;
+        right: -60px;
+        top: -15px;
+        z-index: -1;
+        transform: rotate(25deg);
+    }
+}
+
+@media(min-width: 768px) {   
+    .how_budda {
+        display: none;
+    }
+}
+.how-buy-page p{
+    font-size: 32px;
+}
+.how-to-buy-title{
+    font-size: 100px;
+    font-family: 'Montserrat-Bold';
+    color: #A8A6F8;
+    margin-left: 19%;
+}
+.videoblock{
+    padding: 20px;
+    box-shadow: 0px 8px 28px rgba(186, 186, 186, 0.25);
+    margin: 0 45% 0 15%;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 150px;
+    background-color: #fff;
+}
+.videoblock_someinfo{
+    position: absolute;
+    background-color: #fff;
+    top: -100px;
+    box-shadow: 0px 8px 28px rgba(186, 186, 186, 0.25);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 700px;
+    font-size: 22px;
+    right: -200px;
+}
+
+
+
+.hollow{
+    background-color: white;
+    box-shadow: 0px 8px 28px rgba(186, 186, 186, 0.25);
+    width: 300px;
+    height: 300px;
+    margin: 0 10px;
+    border-radius: 15px;
+    position: relative;
+}
+.steps{
+    margin: 0 10%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.steps a{
+    color: #A8A6F8;
+    text-decoration: underline;
+}
+.numerous{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin: 15px 0;
+}
+.numerous p{
+    color: #A8A6F8;
+    max-width: 40%;
+    font-size: 26px;
+    margin: 0 30px;
+}
+.numerous h2{
+    font-size: 128px;
+    color: #A8A6F8;
+    position: absolute;
+    margin: 0;
+    top: -80px;
+    right: 20px;
+}
+.numerous:nth-child(2n){
+    justify-content: end;
+}
+.numerous:nth-child(2n) h2 {
+    right: auto;
+    left: 20px;
+
+}
+.one h2, .three h2, .five h2{
+}
+.two h2, .four h2{
+}
+
+@media(max-width: 1000px){
+    .how-to-buy-title{
+        font-size: 36px;
+        margin: 80px 0 0 10%;
+    }
+    .videoblock p{
+        font-size: 18px;
+    }
+    .videoblock{
+        margin: 283px 20px 10%;
+        padding: 20px;
+    }
+    .videoblock_someinfo{
+        max-width: 1000%;
+        right: 0;
+        top: -150px;
+    }
+    .videoblock_someinfo p{
+
+    }
+    .numerous p{
+        font-size: 28px;
+    }
+}
+.bg-light{
+    position: absolute;
+}
+.first-light{
+    width: 150%;
+}
+.second-light{
+    top: 1000px;
+}
+.third-light{
+    top: 1700px;
+    transform: rotate(180deg);
+    right: 0;
+}
+.fourth-light{
+    top: 2400px;
+}
+.fifth-light{
+    top: 2300px;
+    transform: rotate(180deg);
+    right: 0;
+}
+.star{
+    position: absolute;
+    right: 20%;
+    top: 92%;
+}
+@media(max-width: 750px){
+    .numerous{
+        margin: 0;
+        padding: 0;
+        margin-top: 70px;
+    }
+    .hollow{
+        width: 100%;
+        margin: 0;
+    }
+    .numerous p{
+        max-width: 100%;
+        padding-right: 10%;
+        font-size: 18px;
+        margin: 30px 0;
+    }
+    .numerous{
+        flex-direction: column;
+    }
+}
+@media(max-width: 600px){
+    .videoblock_someinfo{
+        font-size: 18px;
+        /*margin: 0 20px;*/
+    }
+}   

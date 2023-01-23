@@ -1,0 +1,133 @@
+.faq-title{
+    font-size: 100px;
+    font-family: 'Montserrat-Bold';
+    color: #A8A6F8;
+    /* margin-left: 19%; */
+    max-width: 1512px;
+    padding: 0px 104px;
+    margin: 0 auto;
+}
+
+.faq-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 0;
+    max-width: 1050px;
+    padding: 0 30px;
+}
+.left-column, .right-column{
+    width: 48%;
+}
+.que-ans {
+    box-shadow: 0px 8px 28px rgba(214, 214, 214, 0.25);
+    background-color: #fff;
+    border-radius: 15px;
+}
+.question{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    z-index: 100;
+    cursor: pointer;
+}
+.question p {
+    font-size: 16px;
+}
+.answer{
+   /* background-color: #fff;
+    box-shadow: 0px 8px 28px rgba(214, 214, 214, 0.25);*/
+    padding: 20px;
+    margin-top: -30px;
+    display: none;
+ /*   animation-name: open;
+    animation-duration: 0.8s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0s; */
+    border-radius: 15px;
+}
+@keyframes open{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.answer.active{
+    display: block;
+}
+.question p{
+    margin: 0;
+    color: #A8A6F8;
+}
+.circle{
+    box-shadow: 0px 4px 8px rgba(225, 225, 225, 0.25);
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    border-radius: 50%;
+}
+.question svg{
+    width: 15px;
+    fill: #A8A6F8;
+}
+
+.bg-light{
+    position: absolute;
+    z-index: -100;
+}
+.first-light{
+    width: 150%;
+}
+.second-light{
+    top: 500px;
+}
+
+@media(max-width: 768px){
+    .faq-title{
+        font-size: 36px;
+        margin: 80px 0 -30px -15%;
+    }
+}
+
+@media(min-width: 769px){
+
+    .faq-title{
+        font-size: 100px;
+        margin: 30px 0 -30px 10%;
+        max-width: 1250px;
+      margin: 0 auto;
+      padding: 0 30px;
+    }
+}
+
+@media(max-width: 1000px){
+    .question{
+        min-width: 300px;
+    }
+    section{
+        flex-wrap: wrap;
+    }
+    .left-column, .right-column{
+        width: 100%;
+    }
+    .right-column{
+        margin-top: -20px;
+    }
+}
+
+@media(max-width: 440px) {
+    .faq-section {
+         margin-left: 0;
+    margin-right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+}
