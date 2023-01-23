@@ -634,7 +634,7 @@ async function mint() {
       };
       const tx = await contract.mint(1, overrides);
       console.log(tx);
-      /*await contract.methods.mint(1).send({ from: account, value: cost });
+      await contract.methods.mint(1).send({ from: account, value: cost });
       contract.events
         .Transfer(
           {
@@ -651,7 +651,7 @@ async function mint() {
         .on("error", function (error, receipt) {
           // If the transaction was rejected by the network with a receipt, the second parameter will be the receipt.
           console.log(receipt);
-        });*/
+        });
     }
   } catch (error) {
     console.log(error);
