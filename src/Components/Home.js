@@ -628,7 +628,7 @@ async function mint() {
       let cost = await contract.cost();
       const overrides = {
         from: account,
-        gasLimit: ethers.utils.hexlify(600000),
+        gasLimit: ethers.utils.hexlify(300000),
         value: cost.toString(),
         nonce: provider.getTransactionCount(signer.getAddress()),
       };
